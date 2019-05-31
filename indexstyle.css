@@ -1,0 +1,51 @@
+body {
+  background-color: #2d3436;
+  color: #dfe6e9;
+}
+
+h1,
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 1em;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#choices {
+  margin: 2em;
+}
+
+#choices {
+  display: flex;
+  justify-content: space-around;
+}
+
+#messages {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em;
+  text-transform: uppercase;
+  font-size:1.5em;
+}
+
+#outcome {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 1.5em;
+}
+
+#userMessage {
+  background-color: #00b894;
+}
+#compMessage{
+  background-color: #e84393;
+}
